@@ -8,12 +8,14 @@
 	<link rel="stylesheet" href="html5reset.css">
 	<link rel="stylesheet" href="style.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
-  	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
-	
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Permanent+Marker&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
+	<a class = "skip" href="#skip">Skip to Main Content</a>
+
 	<div>
 	<nav>
 		<ul> 
@@ -26,20 +28,70 @@
 	</div>
 	
 	
-	
+
+	<head>
+		<style>
+		.grid-container {
+		  display: grid;
+		  grid-template-columns: auto auto auto;
+		  grid-gap: 10px;
+		  padding: 10px;
+		}
 		
-
-
-	<header id= "main">
-		<h1>MIFFY'S LIFE GALLERY</h1>
-		<p>:) click on the photos to learn more about my life :)</p>
-	</header>	
+		.grid-container > div {
+		  text-align: center;
+		  padding: 20px 0;
+		  font-size: 30px;
+		}
+		
+		.item1 {
+		  grid-column-start: 2;
+		  grid-column-end: 2;
+		}
 	
+		</style>
+		</head>
+		<body>
+		
+		<h1>MIFFY'S LIFE GALLERY</h1>
+		
+		<div class="grid-container">
+		  <div class="item1">:) scroll down :)</div>
+		</div>
+		</body>
+
+		<head>
+			<title>Title of the document</title>
+			<style>
+			  .parallax-effect {
+				background-image: url(photos/gallery.JPG);
+				min-height: 600px;
+				background-attachment: fixed;
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: cover;
+			  }
+			  .text {
+				height: 200px;
+				background-image: linear-gradient(to right top, #D2E0BF, #A6C0F5, #BCA0BC, #f4d6ff);
+				font-size: 30px;
+				text-align: center;
+				font-family: 'Caveat', cursive;
+			  }
+			</style>
+		  </head>
+		  <body>
+			<div class="parallax-effect"></div>
+			<div class="text">
+				I wanted to make a website that highlighted important places, people and memories in my life. Here is a collection of photos I care a lot about. 
+			</div>
+		  </body>
+
+		
 	
 	<main class="container">
-
 	
-	<div class="img__wrap">
+	<div class="img__wrap" class= "cuddle1" id="skip">
 		<img class="img__img" src="../NEWHW/photos/cuddle.jpeg" alt="Cuddle"/>
 		<p class="img__description">My sister doesn't like getting her photo taken</p>
 	  </div>
@@ -63,6 +115,11 @@
 		<p class="img__description">This is Kidzania, an amusement park where kids get to tryout pretend jobs. I remember loving the burger business because I would get free food at the end.</p>
 	  </div>
 	  <div class="img__wrap">
+		<img class="img__img" src="../NEWHW/photos/school.jpeg" alt="school"/>
+		<p class="img__description">I was very nervous on my first day of school</p>
+	  </div>
+
+	  <div class="img__wrap">
 		<img class="img__img" src="../NEWHW/photos/garden.jpeg" alt="garden"/>
 		<p class="img__description">This is the Kiyosumi Garden right next to my old school. My friends and I would sneak into the park for free to feed the Koi fish.</p>
 	  </div>
@@ -82,10 +139,114 @@
 		<img class="img__img" src="../NEWHW/photos/bridge.jpeg" alt="bridge"/>
 		<p class="img__description">This is a bridge by my old apartment in Tokyo. I use to watch fireworks with my family on this bridge. .</p>
 	  </div>
+	  <div class="img__wrap" >
+		<img class="img__img" src="../NEWHW/photos/ayu.jpeg" alt="ayu"/>
+		<p class="img__description">My elementary through middle school friends</p>
+	  </div>
+	  <div class="img__wrap" >
+		<img class="img__img" src="../NEWHW/photos/skiing.jpeg" alt="ski"/>
+		<p class="img__description">Went skiing in japan</p>
+	  </div>
+	  <div class="img__wrap" >
+		<img class="img__img" src="../NEWHW/photos/middle.png" alt="middle"/>
+		<p class="img__description">Graduated middle school</p>
+	  </div>
+	  <div class="img__wrap" >
+		<img class="img__img" src="../NEWHW/photos/homecoming.jpeg" alt="hoco"/>
+		<p class="img__description">Highschool homecoming</p>
+	  </div>
+	  <div class="img__wrap" >
+		<img class="img__img" src="../NEWHW/photos/cheer.jpeg" alt="cheer"/>
+		<p class="img__description">I did cheer my freshman year of highschool</p>
+	  </div>
+	  <div class="img__wrap" >
+		<img class="img__img" src="../NEWHW/photos/trackfriends.jpeg" alt="track"/>
+		<p class="img__description">I did track all four years of highschool and loved competing with my friends</p>
+	  </div>
+	  <div class="img__wrap" >
+		<img class="img__img" src="../NEWHW/photos/hurdles.jpeg" alt="hurdles"/>
+		<p class="img__description">The 100 meter hurdles was my main event</p>
+	  </div>
+	  <div class="img__wrap" >
+		<img class="img__img" src="../NEWHW/photos/bus.jpeg" alt="bus"/>
+		<p class="img__description">I always loved scream-singing on the bus rides home from a track meet.</p>
+	  </div>
+	  <div class="img__wrap" >
+		<img class="img__img" src="../NEWHW/photos/student.jpeg" alt="student"/>
+		<p class="img__description">I was involved in student board and would help raise money for fundraisers</p>
+	  </div>
+	  <div class="img__wrap" >
+		<img class="img__img" src="../NEWHW/photos/showcase.jpeg" alt="showcase"/>
+		<p class="img__description">Every year, my friends and I would perform at Showcase. Our group was called JAM for Jessica Ashley and Miffy.</p>
+	  </div>
+	  <div class="img__wrap" >
+		<img class="img__img" src="../NEWHW/photos/stuco.jpeg" alt="stuco"/>
+		<p class="img__description">Here's me decorating the halls in my high school for spirit week. </p>
+	  </div>
+	  <div class="img__wrap" >
+		<img class="img__img" src="../NEWHW/photos/fbla.jpeg" alt="fbla"/>
+		<p class="img__description">When I won fourth place at nationals for my business conference with Shreya.</p>
+	  </div>
+	  <div class="img__wrap" >
+		<img class="img__img" src="../NEWHW/photos/artshow.jpeg" alt="artshow"/>
+		<p class="img__description">Art was a big part of highschool for me and here is me at my artshowing with my favorite teacher Mr. Tompson.</p>
+	  </div>
+	  <div class="img__wrap" >
+		<img class="img__img" src="../NEWHW/photos/prom.jpeg" alt="prom"/>
+		<p class="img__description">My best friend Jessica and I at prom.</p>
+	  </div>
+	  <div class="img__wrap" >
+		<img class="img__img" src="../NEWHW/photos/prom2.jpeg" alt="prom2"/>
+		<p class="img__description">More prom pics:)</p>
+	  </div>
+	  <div class="img__wrap" >
+		<img class="img__img" src="../NEWHW/photos/grad.jpeg" alt="grad"/>
+		<p class="img__description">Graduated high school! My graduating class had 1100 students.</p>
+	  </div>
 
-	  <div class="img__wrap">
+	  <div class="img__wrap" >
+		<img class="img__img" src="../NEWHW/photos/mich.jpeg" alt="mich"/>
+		<p class="img__description">My first time touring UMich.</p>
+	  </div>	  
+	  <div class="img__wrap" >
+		<img class="img__img" src="../NEWHW/photos/dining.jpeg" alt="dining"/>
+		<p class="img__description">College freshman year mojo dining hall</p>
+	  </div>
+	  <div class="img__wrap" >
+		<img class="img__img" src="../NEWHW/photos/chicago.jpeg" alt="chi"/>
+		<p class="img__description">Visited Chicago with my college friends.</p>
+	  </div>
+	  <div class="img__wrap" >
+		<img class="img__img" src="../NEWHW/photos/roommate.jpeg" alt="room"/>
+		<p class="img__description">The first picture with my future roommates.</p>
+	  </div>
+	  <div class="img__wrap" >
+		<img class="img__img" src="../NEWHW/photos/axo.jpeg" alt="axo"/>
+		<p class="img__description">Bid day for axo with my best friends.</p>
+	  </div>
+	  <div class="img__wrap" >
+		<img class="img__img" src="../NEWHW/photos/quad.jpeg" alt="quad"/>
+		<p class="img__description">Living in a quad during covid.</p>
+	  </div>
+	  <div class="img__wrap" class= "si">
 		<img class="img__img" src="../NEWHW/photos/si.png" alt="si"/>
 		<p class="img__description">When I found out I got into the School of Information</p>
+	  </div>
+	  <div class="img__wrap" >
+		<img class="img__img" src="../NEWHW/photos/snow.jpeg" alt="snow"/>
+		<p class="img__description">My close art and SI friends</p>
+	  </div>
+	  <div class="img__wrap" >
+		<img class="img__img" src="../NEWHW/photos/ktpp.jpeg" alt="ktp"/>
+		<p class="img__description">I got into a tech fraternity and made more SI friends.</p>
+	  </div>
+	  <div class="img__wrap" >
+		<img class="img__img" src="../NEWHW/photos/shr.jpeg" alt="shreya"/>
+		<p class="img__description">When my best friend Shreya from home visited UMich.</p>
+	  </div>
+	  <div class="img__wrap" >
+		<img class="img__img" src="../NEWHW/photos/group3.jpeg" alt="group3"/>
+		<p class="img__description">Went to the UP over the summer.</p>
 	  </div>
 	
 		

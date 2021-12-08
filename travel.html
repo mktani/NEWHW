@@ -5,10 +5,14 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="html5reset.css">
 	<link rel="stylesheet" href="style.css">
-	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Permanent+Marker&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
+	<a class = "skip" href="#skip">Skip to Main Content</a>
 	<div>
 	<nav>
 		<ul> 
@@ -20,28 +24,79 @@
 	</nav>
 	</div>
 
-	<header id= "main">
+	
+	
+	
+
+	<head>
+		<style>
+		.grid-container {
+		  display: grid;
+		  grid-template-columns: auto auto auto;
+		  grid-gap: 10px;
+		  padding: 10px;
+		}
+		
+		.grid-container > div {
+		  text-align: center;
+		  padding: 20px 0;
+		  font-size: 30px;
+		}
+		
+		.item1 {
+		  grid-column-start: 1;
+		  grid-column-end: 3;
+		}
+	
+		</style>
+		</head>
+		<body>
+		
 		<h1>TRAVELING MEMORIES</h1>
-		<p>:) click on the photos to learn more about my life :)</p>
-	</header>	
+		
+		<div class="grid-container">
+		  <div class="item1">Traveling is one of my biggest life goals. I hope to go to Europe and learn more about cultures different from my own.</div>
+		  <div class="item2">:) hover over the photos to learn more about my life :)</div>
+		  
+		</div>
+		
+		
+		</body>
+
+
+	
 	
 	
 	<main class="container">
 
-		<div class="img__wrap">
-			<img class="img__img" src="../NEWHW/photos/saugy.jpeg" alt="saugy"/>
-			<p class="img__description">Went to Jetal's hometown, Saugatuck</p>
-			</div>
+				<div class="img__wrap" id= "skip">
+				<img class="img__img" src="../NEWHW/photos/saugy.jpeg" alt="saugy"/>
+				<p class="img__description">Went to Jetal's hometown, Saugatuck</p>
+				</div>
 	
-			<div class="img__wrap">
+				<div class="img__wrap">
 				<img class="img__img" src="../NEWHW/photos/group.jpeg" alt="group" />
 				<p class="img__description">Went to Jetal's hometown, Saugatuck</p>
 				</div>
 
-		<div class="img__wrap">
+				<div class="img__wrap">
 				<img class="img__img" src="../NEWHW/photos/marq.jpeg" alt="marq"/>
-				<p class="img__description">Went to Marquette Michigan and did a lot of hiking with my friends.</p>
+				<p class="img__description">Went to Marquette Michigan and jumped off a lot of rocks into water.</p>
 				</div>
+				<div class="img__wrap">
+					<img class="img__img" src="../NEWHW/photos/snorkle.JPG" alt="snorkle" />
+					<p class="img__description">My earliest memory was snorkling at Saint Thomas</p>
+					</div>
+				<div class="img__wrap">
+					<img class="img__img" src="../NEWHW/photos/ny.jpeg" alt="ny" />
+					<p class="img__description">My first time visiting nyc I loved it and hope to live there one day.</p>
+					</div>
+				<div class="img__wrap">
+					<img class="img__img" src="../NEWHW/photos/singapore.jpeg" alt="singapore" />
+					<p class="img__description">This is the electric garden at Singapore</p>
+					</div>
+
+				
 
 
 
